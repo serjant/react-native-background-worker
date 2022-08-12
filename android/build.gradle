@@ -61,7 +61,7 @@ repositories {
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactnativeVersion', '+')}"
     implementation "androidx.work:work-runtime:2.2.0"
-    implementation "androidx.work:work-rxjava2:+"
+    implementation "androidx.work:work-rxjava2:2.7.1"
 }
 
 def configureReactNativePom(def pom) {
